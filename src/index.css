@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+html {
+  scroll-behavior: smooth;
+}
+html {
+  overflow-y: scroll;
+}
+.fade-section {
+  opacity: 0.4;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
