@@ -90,7 +90,7 @@ const About = () => {
             </a>
 
             <a
-              href="/Jnanendra_Robbi_Resume.pdf"
+              href="/Resume.pdf"
               download="Jnanendra_Robbi_Resume.pdf"
               className="relative inline-block px-6 py-3 rounded-full border border-cyan-400 
                 hover:bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-600
