@@ -34,7 +34,7 @@ const Footer = () => {
 
           {/* Brand Section */}
           <div>
-            <a href="#home" className="relative flex items-center justify-center md:justify-start mb-4 group">
+            <a href="#home" className="relative w-fit flex items-center justify-center md:justify-start mb-4 group">
               <img src={Logo} alt="Logo" className="w-10 h-10 group-hover:rotate-6 transition-transform duration-300" />
               <span className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
                 NANENDRA
