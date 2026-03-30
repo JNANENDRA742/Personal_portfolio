@@ -15,9 +15,24 @@ import CursorCursor from './components/CustomCursor'
 
 
 function App() {
+  useEffect(() => {
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 
+    const script = document.createElement("script");
+    script.src = "https://embed.tawk.to/69c2e8589fe04f1c39b55cbd/1jkgln7ho";
+    script.async = true;
+    script.charset = "UTF-8";
+    script.setAttribute("crossorigin", "*");
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script); // cleanup
+    };
+  }, []);
   return (
     <div className='bg-black text-white'>
+
       <CursorCursor />
       <TopButton />
       <ParticleBackground />

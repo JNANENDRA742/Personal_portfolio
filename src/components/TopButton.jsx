@@ -32,7 +32,7 @@ const TopButton = () => {
 
             <button
                 onClick={scrollToTop}
-                className="fixed bottom-6 right-6 z-50 p-[3px] rounded-full absolute overflow-hidden hover:scale-110 active:scale-70 transition-all duration-500"
+                className="fixed bottom-6 left-6 z-50 p-[3px] rounded-full absolute overflow-hidden hover:scale-110 active:scale-70 transition-all duration-500"
             >
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-purple-600 animate-spin"></div>
                 <div className="relative bg-black p-3 rounded-full text-white hover:bg-white hover:text-black transition-all duration-300">
