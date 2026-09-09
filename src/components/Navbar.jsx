@@ -265,7 +265,8 @@ const Navbar = () => {
         {/* LinkedIn Button - Mobile */}
         <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-gray-950 to-transparent">
           <a
-            href="/"
+            href="https://www.linkedin.com/in/jnanendra-robbi-ba0368325/"
+            target="_blank"
             className="group relative flex items-center justify-center gap-3 w-full
               border border-cyan-400/30 px-6 py-4 rounded-xl 
               hover:border-cyan-400 transition-all duration-300 
