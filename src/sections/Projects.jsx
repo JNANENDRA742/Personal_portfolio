@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { FaProjectDiagram, FaPython, FaReact } from 'react-icons/fa';
-import { SiOpencv, SiStreamlit, SiTailwindcss } from 'react-icons/si';
+import { FaProjectDiagram, FaPython, FaReact, FaNodeJs, FaServer } from 'react-icons/fa';
+import { SiOpencv, SiStreamlit, SiTailwindcss, SiMongodb, SiSocketdotio, SiExpress, SiJsonwebtokens } from 'react-icons/si';
 import { AiOutlineApi } from "react-icons/ai";
 import { GiBrain } from "react-icons/gi"
 import { MdAnalytics } from "react-icons/md"
@@ -101,17 +101,40 @@ const Project = () => {
         },
         {
             id: "6",
-            title: "Personal Portfolio",
-            description: "desc 6",
-            image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-            github: "https://github.com",
-            live: "/",
+            title: "Training and Placement Cell (TNPC) Management System",
+            description: "A full-stack MERN placement cell management system for Rajiv Gandhi University of Knowledge Technologies, covering students, companies, placement drives, notices, and secure role-based Admin and Student workflows.",
+            image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+            github: "https://github.com/JNANENDRA742",
+            live: "https://tnpc-client.onrender.com",
             category: "Web",
             technologies: [
                 { name: "React", icon: <FaReact className="text-blue-500" /> },
+                { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
+                { name: "Express", icon: <FaServer className="text-gray-300" /> },
+                { name: "MongoDB", icon: <SiMongodb className="text-green-400" /> },
+                { name: "JWT", icon: <SiJsonwebtokens className="text-blue-300" /> },
                 { name: "Tailwind CSS", icon: <SiTailwindcss className="text-blue-400" /> },
             ],
-            stats: { views: "20k", likes: "20k", date: "2026" }
+            stats: { views: "21k", likes: "12k", date: "2026" }
+        },
+        {
+            id: "7",
+            title: "Real-time Chat Application",
+            description: "A real-time communication platform with Socket.IO, secure JWT authentication, online/offline presence tracking, persistent MongoDB chat history, and a responsive full-stack interface.",
+            image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+            github: "https://github.com/JNANENDRA742",
+            live: null,
+            category: "Web",
+            technologies: [
+                { name: "React", icon: <FaReact className="text-blue-500" /> },
+                { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
+                { name: "Express", icon: <FaServer className="text-gray-300" /> },
+                { name: "Socket.IO", icon: <SiSocketdotio className="text-white" /> },
+                { name: "MongoDB", icon: <SiMongodb className="text-green-400" /> },
+                { name: "JWT", icon: <SiJsonwebtokens className="text-blue-300" /> },
+                { name: "Tailwind CSS", icon: <SiTailwindcss className="text-blue-400" /> },
+            ],
+            stats: { views: "18k", likes: "11k", date: "2026" }
         }
     ]
     const filteredProjects =
